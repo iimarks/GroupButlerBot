@@ -31,4 +31,4 @@ services:
       - TG_WEBHOOK_DOMAIN
       - TG_WEBHOOK_CERT
       - TG_WEBHOOK_MAX_CON
-    image: ${IMAGE:-groupbutler/groupbutler}:${TAG:-dev}
+    image: ${IMAGE:-markbot}:${TAG:-dev}
